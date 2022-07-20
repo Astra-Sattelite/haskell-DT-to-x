@@ -1,0 +1,15 @@
+name:                haskell-DT-to-x
+version:             0.1.0.0
+
+default-extensions:
+- OverloadedStrings
+- NamedFieldPuns
+
+dependencies:
+- base >= 4.7 && < 5
+- megaparsec
+- parser-combinators
+- text
+
+library:
+  source-dirs: src
